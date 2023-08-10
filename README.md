@@ -3,7 +3,11 @@
 # Requirements
 ### Python
 # How to run SAUG: 
-### Run this command in your terminal:
+### Clone the repo with this command:
+```
+git clone https://github.com/setLore/UsernameGenerator.git
+```
+### Run the generator with this command:
 ```
 python usernameGenerator.py
 ```
