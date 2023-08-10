@@ -1,5 +1,5 @@
 # Simple Alphanumeric Username Generator
-### A simple program that creates a chosen by the user, number of usernames which are in the format : `AdjectiveNoun1234` where the discriminator is always 4 numbers.
+### A simple program that creates a chosen by the user, number of usernames which are in the format : `AdjectiveNoun1234` where the discriminator is always 4 digits.
 # Requirements
 ### Python
 # How to run SAUG: 
