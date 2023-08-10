@@ -3,7 +3,7 @@ from RandomWord import random_word
 numOfUsernames=0
 while numOfUsernames==0:
     try:
-        numOfUsernames = int(input("How many usernames do you want to generate?"))
+        numOfUsernames = int(input("How many usernames do you want to generate? "))
     except ValueError:
         print("You need to enter a number.")
     
