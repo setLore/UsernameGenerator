@@ -11,16 +11,22 @@ while numOfUsernames <= 0:
     except ValueError:
         print("You need to enter a number.")
 
-    
-
 start = time.time()
+
 adjective = random_word('english-adjectives.txt',1000)
 noun = random_word('english-nouns.txt',1000)
+
+generatedAmount = 0
 for usernames in range(numOfUsernames):
+
+    generatedAmount += 1
+
     adjective = random_word('english-adjectives.txt',1000)
     noun = random_word('english-nouns.txt',1000)    
+
     username = f"{adjective.title()}{noun.title()}{random.randint(1,9999):04d}"
-    print(username)
+
+    print(f"Usernames generated: {generatedAmount}")
 
     file = open('usernames.txt','a')
     file.write(f'{username}\n')
