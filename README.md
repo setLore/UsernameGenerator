@@ -11,5 +11,8 @@ git clone https://github.com/setLore/UsernameGenerator.git
 ```
 python usernameGenerator.py
 ```
+# FAQ
+## Where do the usernames save?
+### The usernames save in `usernames.txt` which will appear in the folder after you've generated some usernames.
 # Thank you
 ### All fixes/optimizations are greatly appreciated to enhance this project's functionality.
